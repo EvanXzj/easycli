@@ -1,0 +1,26 @@
+{
+  "name": "easycli",
+  "version": "1.0.0",
+  "description": "CLI utility to read csv files data and save it to mongodb",
+  "main": "broadcast.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node broadcast"
+  },
+  "keywords": [
+    "CLI",
+    "Node",
+    "MongoDB",
+    "commander",
+    "csv",
+    "inquirer"
+  ],
+  "author": "Evan",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "csv": "^1.1.1",
+    "inquirer": "^3.0.6",
+    "mongoose": "^4.9.2"
+  }
+}
