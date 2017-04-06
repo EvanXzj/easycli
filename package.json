@@ -18,9 +18,11 @@
   "author": "Evan",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.3.0",
     "commander": "^2.9.0",
     "csv": "^1.1.1",
     "inquirer": "^3.0.6",
+    "lodash": "^4.17.4",
     "mongoose": "^4.9.3"
   }
 }

@@ -4,7 +4,19 @@ const program = require('commander')
 const csv = require('csv')
 const fs = require('fs')
 const inquirer = require('inquirer')
+const mongoose = require('mongoose')
 const walk = require('./lib/helper').walk
+
+mongoose.connect('mongodb://localhost/users')               //连接数据库
+
+let User = mongoose.model('User',{
+    name:String,
+    Email:String,
+    creator:{
+        name:String,
+        telephone:String  
+    },
+})
 
 program
     .version('1.0.0')
